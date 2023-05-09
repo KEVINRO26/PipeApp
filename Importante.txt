@@ -1,0 +1,31 @@
+Links
+https://angular.io/api?query=pipe
+https://primeng.org/installation
+https://github.com/primefaces/primeflex/wiki/PrimeFlex-v2
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+
+Pipes en angular
+*Sirve para transformar fisualmente la información, no hace cambio a ningun objeto
+
+{{ 'Hola' }} | pipes
+
+*No es necesario importar nada, almenos que sea un archivo independiente
+
+nombre: string = 'hOla'
+valor: number = 1000;
+<h1> {{ nombre | titlecase}} </h1> lo que hara es cambiar a Hola pero solo visual
+<h1> {{ valor | number }} </h1>  me saldra en visual 1,000
+
+Crear Router
+--flat evita que cree una carpeta 
+
+ordenar las rutas de orden alfabeticos es una buena practica
+
+No olvidar exportar mis rutas del modulo
+
+Async Pipe
+
+*Cancela la subcripcion
+*Maneja las promesas
+*se subcribe internamente al observable
